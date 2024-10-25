@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const imagesUrl = ["casa5.jpg", "L-9.jpg", "casa4.jpg", "L-42.jpg"];
+const imagesUrl = ["casa15.jpg", "casa17.jpg", "casa13.jpg", "casa18.jpg"];
 
 const Swiping = () => {
   return (

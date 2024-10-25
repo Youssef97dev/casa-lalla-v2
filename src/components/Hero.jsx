@@ -23,16 +23,16 @@ const Hero = () => {
         {/* Image Background */}
         {/* Parallax Image Background */}
         <div
-          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-bottom"
           style={{
-            backgroundImage: "url(/images/L-21.jpg)",
+            backgroundImage: "url(/images/casa9.jpg)",
             backgroundAttachment: "fixed",
           }}
         ></div>
-        <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-40"></div>
+        <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-10"></div>
         {/* Hero Content */}
 
-        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-center">
+        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-start">
           <Link href="/">
             <Image
               src="/icons/logo-2.png"
