@@ -30,7 +30,7 @@ const Talk = () => {
           }}
         ></div>
         <div className="h-full w-full xl:w-2/3 xl:h-1/2 bg-black opacity-80 flex flex-col justify-center items-center rounded-lg px-2 md:px-10 py-6">
-          <span className="font-semibold text-lg md:text-2xl tracking-widest">
+          <span className="font-semibold text-lg md:text-2xl tracking-widest mb-2 text-center">
             How to Find a CasaLallatakerkost ?
           </span>
           <p className="text-base md:text-xl text-center md:text-start">

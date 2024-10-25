@@ -2,25 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/images/casa1.jpg",
-  "/images/casa2.jpg",
-  "/images/casa3.jpg",
-  "/images/casa4.jpg",
-  "/images/casa5.jpg",
-  "/images/casa6.jpg",
-  "/images/casa7.jpg",
   "/images/casa8.jpg",
-  "/images/L-7.jpg",
-  "/images/L-9.jpg",
-  "/images/L-13.jpg",
-  "/images/L-21.jpg",
   "/images/L-42.jpg",
+  "/images/gall1.jpg",
+  "/images/gall2.jpg",
+  "/images/gall3.jpg",
+  "/images/gall4.jpg",
   // Add paths to your images here
 ];
 
 const Gallery = () => {
   return (
-    <div className="py-5 px-10 md:px-48">
+    <div id="gallery" className="py-5 px-10 md:px-48">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center">
         {images.map((src, index) => (
           <div

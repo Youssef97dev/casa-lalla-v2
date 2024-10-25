@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const imagesUrl = ["casa15.jpg", "casa17.jpg", "casa13.jpg", "casa18.jpg"];
+const imagesUrl = ["casa15.jpg", "casa17.jpg", "casa13.jpg", "casa14.jpg"];
 
 const Swiping = () => {
   return (
@@ -27,7 +27,7 @@ const Swiping = () => {
           </Link>
         ))}
       </div>
-      <Link href="/gallery" className="cursor-pointer">
+      <Link href="#gallery" className="cursor-pointer">
         <div className="flex h-full w-full justify-center items-center  relative md:hidden mt-2">
           <Image
             src="/images/L-13.jpg"

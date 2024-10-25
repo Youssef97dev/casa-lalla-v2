@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-10"></div>
         {/* Hero Content */}
 
-        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-start">
+        <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-center lg:items-start">
           <Link href="/">
             <Image
               src="/icons/logo-2.png"
