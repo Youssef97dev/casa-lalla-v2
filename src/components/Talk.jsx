@@ -31,18 +31,14 @@ const Talk = () => {
         ></div>
         <div className="h-full w-full xl:w-2/3 xl:h-1/2 bg-black opacity-80 flex flex-col justify-center items-center rounded-lg px-2 md:px-10 py-6">
           <span className="font-semibold text-lg md:text-2xl tracking-widest">
-            Talk to us
+            How to Find a CasaLallatakerkost ?
           </span>
           <p className="text-base md:text-xl text-center md:text-start">
-            {`Nestled in the heart of the mythical Djema el Fna square, Le Salama is a true refuge after an immersion in the colorful and effervescent souks.`}
+            {`Lalla Takerkoust is a picturesque destination nestled along the Route d’Amezniz, just a short drive from Marrakech, Morocco. This serene locale, set against the stunning backdrop of the Atlas Mountains and the expansive Lalla Takerkoust Lake, offers a tranquil retreat for those seeking a break from the hustle and bustle of the city.`}
             <br />
-            {`Here, you can enjoy a cocktail in peace and quiet, while savoring Moroccan culinary treasures.`}
+            {`Visitors to Lalla Takerkoust can experience a unique blend of traditional Moroccan charm and modern amenities. The area is known for its riads, which have undergone thoughtful restoration to preserve their architectural heritage.`}
             <br />
-            {`On the menu are the must-tries: melting shoulder of lamb, delicious Tangia, or delicate Kemias, all prepared with a finesse and savoir-faire that sublimates traditional flavors.`}
-            <br />
-            {`The ambiance is not to be outdone: every evening, an oriental dance show adds a touch of magic to the atmosphere. `}
-            <br />
-            {`But this place doesn't reveal all its secrets at first glance... There are secrets waiting to be discovered, for those who dare to explore beyond the obvious. Come and let yourself be carried away by the mysterious soul of this enchanting place.`}
+            {`These accommodations provide a range of experiences, from luxurious stays to more modest options, allowing travelers to find the perfect match for their preferences.`}
             <br />
           </p>
         </div>
