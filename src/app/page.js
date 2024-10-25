@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Swiping from "@/components/Swiping";
 import Talk from "@/components/Talk";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Swiping />
       <About />
       <Talk />
+      <Gallery />
     </div>
   );
 }

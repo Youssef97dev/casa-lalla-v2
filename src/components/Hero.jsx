@@ -70,13 +70,16 @@ const Hero = () => {
             </div>
             <ul className="mt-4 font-normal text-xl">
               <li className="py-2 hover:text-primary">
-                <Link href="/page1">Home</Link>
+                <Link href="#">Home</Link>
               </li>
               <li className="py-2 hover:text-primary">
-                <Link href="/page2">Menu</Link>
+                <Link href="#">Menu</Link>
               </li>
               <li className="py-2 hover:text-primary">
-                <Link href="/page3">Reservation</Link>
+                <Link href="#gallery">Gallery</Link>
+              </li>
+              <li className="py-2 hover:text-primary">
+                <Link href="#">Reservation</Link>
               </li>
             </ul>
           </div>
