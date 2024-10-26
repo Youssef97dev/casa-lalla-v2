@@ -81,6 +81,9 @@ const Hero = () => {
               <li className="py-2 hover:text-primary">
                 <Link href="#">Reservation</Link>
               </li>
+              <li className="py-2 hover:text-primary">
+                <Link href="#">Events</Link>
+              </li>
             </ul>
           </div>
         </div>
